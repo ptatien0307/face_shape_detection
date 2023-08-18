@@ -35,7 +35,7 @@ Dataset is taken from https://www.katebloom.co.uk/blog/entry/determine-your-face
 <img src="https://github.com/ptatien0307/face_shape_detection/assets/79583501/cec0a0dd-570e-431a-960f-bf3a17e84692.png" alt="drawing" width="75%" height="75%"/>
 </p>
  
-  * Calculate Ratio: These ratios will be feed into model to dectect face shape
+  * Calculate Ratio: These ratios will be feed into model to detect face shape
     * R1 = D2 / D3
     *	R2 = D3 / D1
     *	R3 = D2 / D1
