@@ -5,6 +5,8 @@ A project make use of deep learning and facial landmark to detect human's face s
 There's will be 5 type of shapes: square, heart, oval, long, round
 
 # Dataset
+Dataset is taken from https://www.katebloom.co.uk/blog/entry/determine-your-face-shape
+
 # Model
 * VGG16
 * ResNet50
