@@ -53,3 +53,26 @@ Dataset is taken from https://www.katebloom.co.uk/blog/entry/determine-your-face
 <p align="center">
 <img src="https://github.com/ptatien0307/face_shape_detection/assets/79583501/ed234aad-8cd0-4739-a9b1-019260912041.png" alt="drawing" width="75%" height="75%"/>
 </p>
+
+
+# Evaluation
+<div align="center">
+  
+| Method                     |   Accuracy     |  Precision | Recall    |  F1-score  | 
+|----------------------------|:--------------:|:----------:|:-----------:|:--------:|
+| Raw: SVM                   |  0.37          | 0.36       | 0.37      | 0.36       | 
+| Raw: RNN                   |  0.29          | 0.30       | 0.29      | 0.29       |   
+| Raw: VGG16                 |  0.48          | 0.49       | 0.48      | 0.47       | 
+| Raw: ResNet                |  0.41          | 0.42       | 0.40      | 0.39       | 
+| Crop: SVM                  |  0.60          | 0.60       |  0.60     | 0.60       |  
+| Crop: KNN                  |  0.46          | 0.46       | 0.45      | 0.46       |
+| Crop: VGG16                |  0.52          | 0.56       | 0.52      | 0.51       |
+| Crop: VGG16 + SVM          |  **0.72**      | **0.72**   | **0.72**  | **0.72**   |
+| Crop: VGG16 + KNN          |  0.52          | 0.52       | 0.52      | 0.52       |
+| Crop: ResNet               |  0.63          | 0.64       | 0.63      | 0.62       |
+| Crop: ResNet + SVM         |  0.48          | 0.48       | 0.48      | 0.48       |
+| Crop: ResNet + KNN         |  0.35          | 0.36       | 0.35      | 0.35       |
+| Landmark: SVM              |  0.57          | 0.57       | 0.57      | 0.56       |
+| Landmark: KNN              |  0.53          | 0.54       | 0.53      | 0.53       |
+| Landmark: Decision Tree    |  0.45          | 0.46       | 0.45      | 0.45       |
+</div>
